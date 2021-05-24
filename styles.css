@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252A
+
+}
+
+li, a, button{
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+
+
+}
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px, 10%;
+  padding-right: 30px;
+
+}
+
+.logo{
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+
+}
+.logo:hover{
+  transform: scale(1.5);
+  transition: all 0.3s ease 0.1s;
+}
+
+.navLinks{
+  list-style: none;
+
+}
+.navLinks li{
+  display: inline-block;
+  padding: 0px 20px;
+
+}
+
+.navLinks li a{
+  transition: all 0.3s ease 0s;
+}
+.navLinks li a:hover{
+  color: #0088a9;
+  text-decoration: underline;
+  font-size: 120%;
+  transition: all 0.5s ease 0.1s;
+  
+
+}
+button{
+  padding: 9px 25px;
+  background-color: rgba(0,136,169);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+
+}
+button:hover{
+  transform: scale(1.5);
+  background-color: rgb(3, 50, 58);
+}
+
+h1{
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: #b3b3b3;
+  font-size: 42px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: underline;
+  
+}
+p{
+  padding-left: 60px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #bfbfbf;
+
+}
